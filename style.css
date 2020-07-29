@@ -1,0 +1,208 @@
+/* letras color: #FF5500; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;    
+    font-size: 18px;
+   
+    
+    
+}
+
+.container{
+    display: inherit;
+    max-width: 1000px;
+    width: 100%;
+    height: inherit;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+
+ #header{
+    background-color: #000000;
+    color: #FF5500;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: fixed;   
+    width: 100%;
+    height: 70px;
+    top: 0;
+    padding: 5px;
+  
+}
+
+#header-img{
+    width: 200px;
+    height: 30px;
+    margin: 15px 10px 10px;
+    
+}
+
+
+
+#nav-bar {
+    display: flex;
+    width: auto;
+
+}
+
+#nav-bar ul {
+    width: 100%;
+    list-style: none;   
+    display: flex;
+    align-self: center;    
+}
+
+#nav-bar ul li {
+    
+    margin: 0 10px;
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    color: #FF5500;
+}
+
+
+
+
+#hero {
+    border: 1px solid #FF5500;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 100px;
+    
+    
+}
+
+.details{
+    display: flex;
+    padding: 10px;
+    text-align: justify;
+    
+}
+
+.details_list{
+    display: flex;
+    margin: 20px;
+}
+
+.icon{
+    font-size: 2em;
+    color: #FF5500;
+    margin-right: 60px;
+    
+}
+
+.products{
+    border: 1px solid #FF5500;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.modelphones_prices {
+    display: flex;
+    width: auto;
+    height: 500px;
+    padding: 30px;
+    margin-bottom: 20px;
+    
+    
+    border: 1px solid blue;
+    
+    
+}
+.modelphones {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colors_variant {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+       
+       
+}
+
+
+
+.phoneprices{
+    width: 50%;
+    text-align: justify;      
+}
+.phoneprices h3 {
+    text-align: center;
+}
+
+
+
+
+.phones h2{
+    border: 1px solid red;
+    
+
+}
+
+.image_phones{
+    
+    width: 240px;
+    height: 300px;
+    margin: 10px;
+}
+
+
+
+
+
+
+.request_prices{
+    border: 1px solid #FF5500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.request_prices form{
+    height: 100px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;    
+    width: 50%;
+}
+
+footer {
+    background-color: #000000;
+    color: #FF5500;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    height: 70px;
+    padding: 20px;            
+}
+
+footer span a {
+    text-decoration: none;
+    color: #FF5500;
+}
+
+
