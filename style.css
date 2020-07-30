@@ -166,38 +166,64 @@ body{
 /* Controles para radio buttons, cambiar colores de equipos*/
 
 .control_radio{
-    border: 1px solid red;
     display: flex;
     justify-content: center;
-    height: 100px;
-    width: inherit;
+    height: auto;
+    width: auto;
 }
 
+.control_radio input[type="radio"] {
+    display: none;
+}
 .label_color{
-      width:auto;
+      width: 50px;
       height: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-      border: 1px solid blue;
-      margin: 0 15px;
-      padding: 10px 0;
-      text-align: center;  
-                 
-}
-
-.colors_variant{
-   
-    
-
+      display: flex;      
+      justify-content: space-evenly;      
+      margin: 0 15px;                     
 }
 
 .span_color{
-    
-    
-    
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0,0,0,0.8);
+    border-radius: 50px;      
 }
+
+/* Redmi 8a*/
+.span_color.black{
+    background-color: black;     
+}
+.span_color.blue{
+    background-color: #113977;     
+}
+.span_color.orange{
+    background-color: #b53616;     
+}
+
+/*Redmi note 8*/
+.span_color.black{
+    background-color: black;     
+}
+.span_color.skyblue{
+    background-color: #141767;     
+}
+.span_color.sky{
+    background-color: #bbf0fd;     
+}
+
+/*Redmi note pro 9*/
+.span_color.gray{
+    background-color: #313745;     
+}
+.span_color.green{
+    background-color: #69bbd5;     
+}
+.span_color.white{
+    background-color: #FFF;     
+}
+
+
 
 
 /* Fin de controles para radio buttons, cambiar colores de equipos*/
