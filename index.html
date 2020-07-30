@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="/interactividad.js"></script>
 </head>
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
@@ -56,18 +57,21 @@
             <article class="modelphones_prices">
                 <div class="modelphones">
                 <h2>Redmi 8A</h2>
-                <img class="image_phones" src="image/redmi8Ablack.jpg">
+                <img id="a8black" class="image_phones a8black" src="image/redmi8Ablack.jpg">
+                <img id="a8blue" class="image_phones a8blue" src="image/redmi8Ablue.jpg">
+                <img id="a8orange" class="image_phones a8orange" src="image/redmi8Aorange.jpg">
+
                 <div class="control_radio">
                     <label class="label_color">
-                    <input name="colors" type="radio">
+                    <input name="colors" type="radio" onclick="a8black();">
                     <span class="span_color black"></span>
                     </label>
                     <label class="label_color">
-                    <input name="colors" type="radio">
+                    <input name="colors" type="radio" onclick="a8blue();">
                     <span class="span_color blue"></span>
                     </label>
                     <label class="label_color">
-                    <input name="colors" type="radio">
+                    <input name="colors" type="radio" onclick="a8orange();">
                     <span class="span_color orange"></span>
                     </label>
                 </div>
@@ -79,21 +83,24 @@
                     </iframe>
                 </div>
             </article>
+            
             <article class="modelphones_prices">
                 <div class="modelphones">
                 <h2>Redmi Note 8</h2>
-                <img class="image_phones" src="image/redminote8black.jpg">
+                <img id="note8black" class="image_phones note8black" src="image/redminote8black.jpg">
+                <img id="note8blue" class="image_phones note8blue" src="image/redminote8blue.jpg">
+                <img id="note8white" class="image_phones note8white" src="image/redminote8white.jpg">
                 <div class="control_radio">
                     <label class="label_color">
-                    <input name="colors" type="radio">
+                    <input name="colors" type="radio" onclick="note8black();">
                     <span class="span_color black"></span>
                     </label>
                     <label class="label_color">
-                    <input name="colors" type="radio">
+                    <input name="colors" type="radio" onclick="note8blue();">
                     <span class="span_color skyblue"></span>
                     </label>
                     <label class="label_color">
-                    <input name="colors" type="radio">
+                    <input name="colors" type="radio" onclick="note8white();">
                     <span class="span_color sky"></span>
                     </label>
                 </div>
@@ -111,18 +118,20 @@
             <article class="modelphones_prices">
                 <div class="modelphones">
                 <h2>Redmi Note Pro 9</h2>
-                <img class="image_phones" src="image/redminote9progray.jpg">
+                <img id="note9progray" class="image_phones note9progray" src="image/redminote9progray.jpg">
+                <img id="note9progreen" class="image_phones note9progreen" src="image/redminote9protropicalgreen.jpg">
+                <img id="note9prowhite" class="image_phones note9prowhite" src="image/redminote9prowhite.jpg">
                 <div class="control_radio">
                     <label class="label_color">
-                    <input name="colors" type="radio">
+                    <input name="colors" type="radio" onclick="note9progray();">
                     <span class="span_color gray"></span>
                     </label>
                     <label class="label_color">
-                    <input name="colors" type="radio">
+                    <input name="colors" type="radio" onclick="note9progreen();">
                     <span class="span_color green"></span>
                     </label>
                     <label class="label_color">
-                    <input name="colors" type="radio">
+                    <input name="colors" type="radio" onclick="note9prowhite();">
                     <span class="span_color white"></span>
                     </label>
                 </div>
